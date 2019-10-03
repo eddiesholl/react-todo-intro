@@ -1,0 +1,20 @@
+{
+  "name": "react-todo-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "forward": "git checkout $(git rev-list --topo-order HEAD..done | tail -1)",
+    "back": "git checkout HEAD~1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.7",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
+}
