@@ -1,9 +1,7 @@
-const items = ['Remember the milk', 'Something else']
-
-export const TodoList = () => {
+export const TodoList = ({ todos }) => {
   return (
     <ol>
-      { items.map((item, ix) => <li key={ix}>{item}</li>) }
+      { todos.map((item, ix) => <li key={ix}>{item}</li>) }
     </ol>
   )
 }
