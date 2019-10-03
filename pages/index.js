@@ -1,5 +1,12 @@
+import { TodoManager } from "./TodoManager";
+
 function Home() {
-  return <div>Welcome to Next.js!</div>
+  return (
+    <div>
+      Welcome to the awesome TodoManager!
+      <TodoManager />
+    </div>
+  )
 }
 
 export default Home
