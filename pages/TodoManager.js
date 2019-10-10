@@ -10,6 +10,8 @@ export const TodoManager = () => {
     setTodos([...todos, newTodo])
   }
 
+  const resetTodos = () => setTodos([])
+
   return (
     <div>
       <TodoCounter todos={todos} />
